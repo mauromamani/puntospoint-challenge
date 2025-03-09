@@ -1,4 +1,6 @@
 # Puntospoint challenge
+![2025-03-09 17-32-32](https://github.com/user-attachments/assets/030b5e21-5315-47c3-bce7-45bad5a68c3a)
+
 Aplicación en Nextjs 12 & React 18 + TypeScript, utilizando Material UI y TanStack React Query.
 
 ## Correr Proyecto
@@ -6,7 +8,7 @@ Aplicación en Nextjs 12 & React 18 + TypeScript, utilizando Material UI y TanSt
 Clonar repositorio
 
 ```bash
-  git clone 
+  git clone git@github.com:mauromamani/puntospoint-challenge.git dashboard
 ```
 
 Acceder a la carpeta
@@ -45,9 +47,10 @@ Iniciar
 ```bash
   npm run dev
 ```
-
-
 ## Uso de Google Analytics para métricas
+
+![image](https://github.com/user-attachments/assets/95f4dc75-80af-469e-bf37-b721ea5a6d56)
+
 Para mejorar la analítica de uso y comprender mejor el comportamiento de los usuarios dentro de la aplicación, se han implementado eventos en Google Analytics 4 (GA4). Estos eventos nos permiten identificar interacciones clave y optimizar la experiencia del usuario en función de los datos recopilados.
 
 Link para ver analytics de los eventos:
