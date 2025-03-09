@@ -8,7 +8,7 @@ import { useSidebarStore } from '../../store/sidebar.store';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import ListIcon from '@mui/icons-material/List';
 import { ChangeChartButtons } from '../sidebar/change-chart-buttons';
-import { pushEventAnalytics } from 'src/core/ga4/util';
+import { pushEventAnalytics } from '../../../../core/ga4/util';
 
 export const MobileFilters = () => {
   const { selectedTypeChart } = useSidebarStore();

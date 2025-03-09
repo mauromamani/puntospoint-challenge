@@ -18,7 +18,7 @@ import { GridExpandMoreIcon } from '@mui/x-data-grid';
 import { useState } from 'react';
 import LogoutIcon from '@mui/icons-material/Logout';
 import MenuIcon from '@mui/icons-material/Menu';
-import { pushEventAnalytics } from 'src/core/ga4/util';
+import { pushEventAnalytics } from '../../../core/ga4/util';
 
 export const DesktopNavbar = () => {
   const [openDrawer, setOpenDrawer] = useState(false);

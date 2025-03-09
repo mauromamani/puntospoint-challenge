@@ -6,7 +6,7 @@ import { graficoFilterList, pulsoFilterList } from '../../utils/table-filters';
 import { GraficoFilter, useFilterStore } from '../../store/filter.store';
 import { useMemo } from 'react';
 import { useSidebarStore } from '../../store/sidebar.store';
-import { pushEventAnalytics } from 'src/core/ga4/util';
+import { pushEventAnalytics } from '../../../../core/ga4/util';
 
 export const DesktopFilters = () => {
   const { selectedTypeChart } = useSidebarStore();

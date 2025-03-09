@@ -3,7 +3,7 @@ import { Button } from '@/shared/components/ui';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import { PulsoStarIcon } from '@/shared/components/icons';
 import { useSidebarStore } from '../../store/sidebar.store';
-import { pushEventAnalytics } from 'src/core/ga4/util';
+import { pushEventAnalytics } from '../../../../core/ga4/util';
 
 export const ChangeChartButtons = () => {
   const { setSelectedTypeChart, selectedTypeChart } = useSidebarStore();

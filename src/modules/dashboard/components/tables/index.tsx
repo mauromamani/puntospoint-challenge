@@ -7,7 +7,7 @@ import { useSidebarStore } from '../../store/sidebar.store';
 import { PulsoTables } from './pulso-tables';
 import { Button } from '@/shared/components/ui';
 import DownloadIcon from '@mui/icons-material/Download';
-import { pushEventAnalytics } from 'src/core/ga4/util';
+import { pushEventAnalytics } from '../../../../core/ga4/util';
 
 export const Tables = () => {
   const { selectedTypeChart } = useSidebarStore();
