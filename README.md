@@ -15,7 +15,7 @@ Clientes Cashback 7 dias
 Clientes Dinero 7 dias
 ![clientes-dinero-7-dias](https://github.com/user-attachments/assets/f460e800-9179-4516-aaaf-aa1bbc865d20)
 
-Clientes Transacciones
+Transacciones Dinero
 ![transacciones-dinero](https://github.com/user-attachments/assets/f4153a9f-629d-4dcf-a91a-440adaf5a12e)
 
 YTD-YTG
