@@ -1,7 +1,15 @@
+import { setHours, setMilliseconds, setMinutes, setSeconds } from 'date-fns';
+
+export const generarFechaConHora = (hora: number) =>
+  setMilliseconds(
+    setSeconds(setMinutes(setHours(new Date(), hora), 0), 0),
+    0
+  ).toISOString();
+
 export const clientesData = [
   {
     id: 1,
-    fecha: new Date().toISOString(),
+    fecha: generarFechaConHora(16),
     clientesTotales: 900,
     clientesNuevos: 394,
     compraron: 941,
@@ -15,7 +23,7 @@ export const clientesData = [
   },
   {
     id: 2,
-    fecha: '2025-03-06 09:06:34',
+    fecha: generarFechaConHora(12),
     clientesTotales: 559,
     clientesNuevos: 808,
     compraron: 864,
@@ -29,7 +37,7 @@ export const clientesData = [
   },
   {
     id: 3,
-    fecha: '2020-12-27 17:31:01',
+    fecha: generarFechaConHora(21),
     clientesTotales: 986,
     clientesNuevos: 693,
     compraron: 213,
@@ -43,7 +51,7 @@ export const clientesData = [
   },
   {
     id: 4,
-    fecha: '2022-04-01 10:29:22',
+    fecha: generarFechaConHora(22),
     clientesTotales: 884,
     clientesNuevos: 417,
     compraron: 111,
@@ -57,7 +65,7 @@ export const clientesData = [
   },
   {
     id: 5,
-    fecha: '2025-01-22 08:07:27',
+    fecha: generarFechaConHora(1),
     clientesTotales: 659,
     clientesNuevos: 310,
     compraron: 114,
@@ -71,7 +79,7 @@ export const clientesData = [
   },
   {
     id: 6,
-    fecha: '2021-01-14 19:50:57',
+    fecha: generarFechaConHora(9),
     clientesTotales: 831,
     clientesNuevos: 774,
     compraron: 121,
@@ -85,7 +93,7 @@ export const clientesData = [
   },
   {
     id: 7,
-    fecha: '2024-03-25 04:45:56',
+    fecha: generarFechaConHora(4),
     clientesTotales: 374,
     clientesNuevos: 361,
     compraron: 110,
@@ -99,7 +107,7 @@ export const clientesData = [
   },
   {
     id: 8,
-    fecha: '2023-12-12 09:21:14',
+    fecha: generarFechaConHora(19),
     clientesTotales: 376,
     clientesNuevos: 644,
     compraron: 692,
@@ -7004,7 +7012,7 @@ export const clientesData = [
 export const transaccionesData = [
   {
     id: 1,
-    fecha: '2021-03-20 08:39:10',
+    fecha: generarFechaConHora(19),
     transacciones: 3574,
     dineroTotal: 3426429,
     ventas: 4092253,
@@ -7015,7 +7023,7 @@ export const transaccionesData = [
   },
   {
     id: 2,
-    fecha: '2023-11-12 19:01:39',
+    fecha: generarFechaConHora(1),
     transacciones: 1740,
     dineroTotal: 726233,
     ventas: 381562,
@@ -7026,7 +7034,7 @@ export const transaccionesData = [
   },
   {
     id: 3,
-    fecha: '2021-07-01 05:36:57',
+    fecha: generarFechaConHora(12),
     transacciones: 787,
     dineroTotal: 4689731,
     ventas: 2732777,
@@ -7037,7 +7045,7 @@ export const transaccionesData = [
   },
   {
     id: 4,
-    fecha: '2024-06-02 06:10:07',
+    fecha: generarFechaConHora(9),
     transacciones: 4025,
     dineroTotal: 391032,
     ventas: 4288752,
@@ -7048,7 +7056,7 @@ export const transaccionesData = [
   },
   {
     id: 5,
-    fecha: '2024-12-19 06:59:30',
+    fecha: generarFechaConHora(0),
     transacciones: 4066,
     dineroTotal: 3440782,
     ventas: 1879866,
