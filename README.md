@@ -1,7 +1,31 @@
 # Puntospoint challenge
+Aplicación en Nextjs 12 & React 18 + TypeScript, utilizando Material UI y TanStack React Query.
 ![2025-03-09 17-32-32](https://github.com/user-attachments/assets/030b5e21-5315-47c3-bce7-45bad5a68c3a)
 
-Aplicación en Nextjs 12 & React 18 + TypeScript, utilizando Material UI y TanStack React Query.
+Casos diseñados:
+Clientes HOY
+![hoy](https://github.com/user-attachments/assets/84205b0e-8adc-471c-a933-4778576b2753)
+
+Clientes 7 dias
+![clientes-7-dias](https://github.com/user-attachments/assets/d8187ef7-6e07-4207-8dcf-84e3938275af)
+
+Clientes Cashback 7 dias
+![clientes-cashback](https://github.com/user-attachments/assets/0d5cccc8-90ec-49d2-b3ff-9511598e2f70)
+
+Clientes Dinero 7 dias
+![clientes-dinero-7-dias](https://github.com/user-attachments/assets/f460e800-9179-4516-aaaf-aa1bbc865d20)
+
+Clientes Transacciones
+![transacciones-dinero](https://github.com/user-attachments/assets/f4153a9f-629d-4dcf-a91a-440adaf5a12e)
+
+YTD-YTG
+![ytd-ytg](https://github.com/user-attachments/assets/ad1bd52f-a801-4a59-811a-7e3aab69eb81)
+
+Pulso
+![pulso](https://github.com/user-attachments/assets/c48c7c43-0066-4c1a-8009-515c65cc0975)
+
+
+
 
 ## Correr Proyecto
 
