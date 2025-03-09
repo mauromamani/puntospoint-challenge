@@ -50,6 +50,9 @@ Iniciar
 ## Uso de Google Analytics para métricas
 Para mejorar la analítica de uso y comprender mejor el comportamiento de los usuarios dentro de la aplicación, se han implementado eventos en Google Analytics 4 (GA4). Estos eventos nos permiten identificar interacciones clave y optimizar la experiencia del usuario en función de los datos recopilados.
 
+Link para ver analytics de los eventos:
+https://analytics.google.com/analytics/web/?authuser=0#/p481460759/reports/explorer?params=_u..nav%3Dmaui%26_u.date00%3D20250309%26_u.date01%3D20250309&r=top-events&ruid=top-events,business-objectives,examine-user-behavior&collectionId=business-objectives
+
 - filter: Se dispara cuando un usuario cambia un filtro. Esto nos ayuda a entender qué filtros son más utilizados y cómo los usuarios interactúan con la segmentación de datos.
 - sub-filter: Similar al evento anterior, pero aplicado a cambios en subfiltros, lo que nos permite obtener un nivel más detallado de las preferencias del usuario.
 - type-chart: Se activa cuando un usuario cambia el tipo de gráfico. Esto nos ayuda a analizar qué tipos de visualización son más efectivos o preferidos.
